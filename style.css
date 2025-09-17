@@ -1,0 +1,99 @@
+/* الخطوط والألوان */
+body {
+    font-family: "Cairo", Arial, sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #eef3f9);
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    color: #333;
+}
+
+/* رأس الصفحة */
+header {
+    background: linear-gradient(135deg, #004080, #007acc);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* شريط التنقل */
+nav {
+    background: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #004080;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+/* المحتوى */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+/* المنتجات */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f0f6ff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #dceeff;
+    transform: scale(1.02);
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #004080;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
